@@ -1,0 +1,14 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "description": "Assignment 2 - HTML",
+  "main": "index.js",
+  "author": "Rodrigo Medina",
+  "license": "MIT",
+  "scripts":{
+    "dev": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
