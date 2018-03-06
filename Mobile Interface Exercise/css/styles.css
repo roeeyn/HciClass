@@ -1,0 +1,76 @@
+body{
+    font-family: 'Lobster', cursive;
+}
+
+section {
+    height: 100vh;
+    display: none;
+}
+
+.slide{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+h1{
+    color: white;
+    font-size: xx-large;
+}
+
+.option{
+    border-radius: 10px;
+    font-size: x-large;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    margin: 40px auto;
+    width: 75%;
+    background-color: aliceblue;
+}
+
+.next{
+    color: white;
+    background-color: #A27AFE;
+}
+
+.error{
+    background-color: rgba(0, 0, 0, 0);
+    color:white;
+    display: none;
+}
+
+.res{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.selected{
+    box-shadow: 0 0 6px 4px deeppink;
+}
+
+.avatar{
+    width: 96px;
+    height: 96px;
+    border: 1px solid black;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/41/Siberischer_tiger_de_edit02.jpg');
+    background-size: 96px 96px;
+    margin: 20px auto;
+}
+
+#slide1{
+    display: block;
+    background-color: #7BCAE1;
+}
+
+#slide2{
+    background-color: #8EB4E6;
+}
+
+#slide3{
+    background-color: #8BFEA8;
+}
+
+#slide4{
+    background-color: rgb(74, 143, 98);
+}
